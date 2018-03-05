@@ -6,6 +6,7 @@ import UIKit
 
 func run() {
     let list = [5, 3, 9, 1, 7]
+    print(list)
     let result = recursiveSort(list: list, index: 0)
     print(result)
 }
